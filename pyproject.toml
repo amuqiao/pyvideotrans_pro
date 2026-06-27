@@ -310,6 +310,11 @@ index-strategy = "unsafe-best-match"
 
 
 [[tool.uv.index]]
+name = "pypi-tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[[tool.uv.index]]
 name = "pytorch-cu128"
 url = "https://download.pytorch.org/whl/cu128"
 explicit = true
@@ -330,5 +335,4 @@ torchaudio = [
 ]
 
 faster-whisper = { url = "https://github.com/SYSTRAN/faster-whisper/archive/refs/heads/master.tar.gz" }
-
 
